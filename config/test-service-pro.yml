@@ -1,0 +1,17 @@
+server:
+  port: 8962
+
+
+spring:
+  zipkin:
+    base-url: http://192.168.3.42:9411
+
+  rabbitmq:
+    host: 192.168.3.41
+    port: 5672
+    username: test
+    password: test
+    publisher-confirms: true
+    virtual-host: /
+
+foo: foo version 1
