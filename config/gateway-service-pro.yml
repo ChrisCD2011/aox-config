@@ -16,21 +16,12 @@ zuul:
     socket-timeout-millis: 20000
 
   routes:
-    uaa-service:
-      path: /uaaapi/**
-      serviceId: uaa-service
-      sensitiveHeaders:
-    user-service:
-      path: /userapi/**
-      serviceId: user-service
-      sensitiveHeaders:
-
-    blog-service:
-      path: /blogapi/**
-      serviceId: blog-service
+    schoolwebservice:
+      path: /aosschoolapi/**
+      serviceId: schoolwebservice
       sensitiveHeaders:
     user-service-gov:
-      path: /aoxuserapi/**
+      path: /aosuserapi/**
       serviceId: user-service-gov
       sensitiveHeaders:
 
