@@ -16,9 +16,9 @@ zuul:
     socket-timeout-millis: 20000
 
   routes:
-    schoolwebservice:
+    school-web-service:
       path: /aosschoolapi/**
-      serviceId: schoolwebservice
+      serviceId: school-web-service
       sensitiveHeaders:
     user-service-gov:
       path: /aosuserapi/**
